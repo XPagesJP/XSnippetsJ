@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.0" replicaid="49258147001F0080" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="3aa" sequence="18" unid="F57BF57FD03F8FC7C2257B5D005B238B">
+<created><datetime dst="true">20130430T193528,75+03</datetime></created>
+<modified><datetime>20170911T142700,12+09</datetime></modified>
+<revised><datetime>20170911T141434,44+09</datetime></revised>
+<lastaccessed><datetime>20170911T142700,12+09</datetime></lastaccessed>
+<addedtofile><datetime>20170622T143840,76+09</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Serdar Basegmez/O=developi</name><name>CN=Takeshi Yoshida/O=solxyz</name><name>CN=XPages Admin/O=XPages</name><name>CN=Kazunori Tatsuki/O=Ktrick</name><name>CN=Takeshi Yoshida/O=solxyz</name><name>CN=Kazunori Tatsuki/O=Ktrick</name></updatedby>
+<wassignedby><name>CN=Kazunori Tatsuki/O=Ktrick</name></wassignedby>
+<item name="$Flags"><text>34567Cg~[</text></item>
+<item name="$TITLE"><text>org/openntf/xsnippets/SnippetsAsJson.java</text></item>
+
+<item name="$DesignerVersion"><text>8.5.3</text></item>
+
+
+<item name="$FileNames" sign="true"><text>org/openntf/xsnippets/SnippetsAsJson.java</text></item>
+
+</note>

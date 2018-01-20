@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.0" replicaid="49258147001F0080" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="26e" sequence="26" unid="C5D0930C6551B2E8C22579F1005B55C4">
+<created><datetime dst="true">20120501T193737,32+03</datetime></created>
+<modified><datetime>20170911T142700,00+09</datetime></modified>
+<revised><datetime>20170911T141424,31+09</datetime></revised>
+<lastaccessed><datetime>20170911T142700,00+09</datetime></lastaccessed>
+<addedtofile><datetime>20170622T143839,18+09</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Serdar Basegmez/O=developi</name><name>CN=Niklas Heidloff/OU=Germany/O=IBM</name><name>CN=Serdar Basegmez/O=developi</name><name>CN=Niklas Heidloff/OU=Germany/O=IBM</name><name>CN=Serdar Basegmez/O=developi</name><name>CN=Takeshi Yoshida/O=solxyz</name><name>CN=XPages Admin/O=XPages</name><name>CN=Kazunori Tatsuki/O=Ktrick</name><name>CN=Takeshi Yoshida/O=solxyz</name><name>CN=Kazunori Tatsuki/O=Ktrick</name></updatedby>
+<wassignedby><name>CN=Kazunori Tatsuki/O=Ktrick</name></wassignedby>
+<item name="$TITLE"><text>OpenNTFLogo.png</text></item>
+<item name="$Flags"><text>34CiQ</text></item>
+<item name="$FlagsExt"><text>D</text></item>
+<item name="$ImagesWide" sign="true"><number>1</number></item>
+<item name="$ImagesHigh" sign="true"><number>1</number></item>
+<item name="$ImagesColorize" sign="true"><number>0</number></item>
+<item name="$FileModDT" sign="true"><datetime>20111115T011751,48-05</datetime></item>
+<item name="$ImageNames" sign="true"><text>OpenNTFLogo.png</text></item>
+<item name="$DesignerVersion"><text>8.5.3</text></item>
+
+</note>

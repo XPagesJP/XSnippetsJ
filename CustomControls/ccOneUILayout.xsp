@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view xmlns:xp="http://www.ibm.com/xsp/core"
+	xmlns:xe="http://www.ibm.com/xsp/coreex"
+	xmlns:xc="http://www.ibm.com/xsp/custom">
+	<xp:this.resources>
+		<xp:script src="/Utilities.jss" clientSide="false"></xp:script>
+		<xp:linkResource href="./feedRecentAll.xsp" type="application/atom+xml" title="Atom feed for all snippets" rel="alternate"></xp:linkResource>
+		<xp:linkResource href="./feedRecentAll.xsp?format=rss" type="application/rss+xml" title="RSS feed for all snippets" rel="alternate"></xp:linkResource>
+		<xp:metaData name="description" content="OpenNTF XSnippets - Code Snippets for IBM XPages Development"></xp:metaData>
+		<xp:metaData name="robots" content="OpenNTF XSnippets - Code Snippets for IBM XPages Development"></xp:metaData>
+		<xp:metaData name="keywords" content="OpenNTF XSnippets Code Snippets IBM XPages Development Open Source"></xp:metaData>
+	</xp:this.resources>
+	<xp:this.beforePageLoad><![CDATA[#{javascript:viewStateBean.restoreState = true}]]></xp:this.beforePageLoad>
+		
+	<xe:keepSessionAlive id="keepSessionAlive1"></xe:keepSessionAlive>
+
+	<xe:applicationLayout id="oneUILayout1">
+		<xe:this.facets>
+			<xc:ccSearch xp:key="SearchBar"
+				loaded="${javascript:database.isFTIndexed()}">
+			</xc:ccSearch>
+
+			<xp:callback xp:key="LeftColumn" facetName="LeftColumn"
+				id="callback1">
+			</xp:callback>
+			<xp:callback xp:key="RightColumn" facetName="RightColumn"
+				id="callback2">
+			</xp:callback>
+		</xe:this.facets>
+		<xe:this.configuration>
+			<xe:applicationConfiguration productLogo="OpenNTFLogo.png"
+				navigationPath="${javascript:compositeData.navigationPath}"
+				defaultNavigationPath="${javascript:compositeData.defaultNavigationPath}"
+				productLogoHeight="20px" productLogoWidth="140px" legalText=""
+				placeBar="false"
+				productLogoStyle="float: left; vertical-align: middle; margin-right: 5px;margin-top:5px;"
+				titleBar="true" titleBarName="Share your Code with others">
+				<xe:this.bannerApplicationLinks>
+					<xe:repeatTreeNode value="#{configUtil.headerLinks}"
+						var="link">
+					<xe:this.children>
+						<xe:basicLeafNode href="#{link.href}"
+							label="#{link.title}" styleClass="#{link.className}">
+						</xe:basicLeafNode>
+					</xe:this.children></xe:repeatTreeNode>
+				</xe:this.bannerApplicationLinks>
+				<xe:this.bannerUtilityLinks>
+					<xe:userTreeNode></xe:userTreeNode>
+
+					<xe:basicLeafNode label="Login">
+						<xe:this.href><![CDATA[#{javascript:url=context.getUrl();
+url2=new XSPUrl(url.toString());
+
+url2.removeAllParameters();
+url2.setPath("/names.nsf");
+url2.setParameter((session.getEffectiveUserName()=="Anonymous")?"login":"logout","");
+url2.setParameter("redirectto", url.getPath()+url.getQueryString())
+
+url2.toString()}]]></xe:this.href>
+						<xe:this.rendered><![CDATA[#{javascript:session.getEffectiveUserName()=="Anonymous"}]]></xe:this.rendered>
+					</xe:basicLeafNode>
+				</xe:this.bannerUtilityLinks>
+				<xe:this.titleBarTabs></xe:this.titleBarTabs>
+				<xe:this.searchBar rendered="false">
+					<xe:appSearchBar pageName="search"
+						inactiveText="Enter Keywords" loaded="true" rendered="${javascript:database.isFTIndexed()}">
+					</xe:appSearchBar>
+				</xe:this.searchBar>
+				<xe:this.placeBarName><![CDATA[#{javascript:compositeData.title}]]></xe:this.placeBarName>
+				<xe:this.footerLinks>
+					<xe:basicContainerNode label="">
+						<xe:this.children>
+							<xe:repeatTreeNode value="#{configUtil.bottomLinks}"
+								var="link">
+							<xe:this.children>
+								<xe:basicLeafNode href="#{link.href}"
+									label="#{link.title}" styleClass="#{link.className}">
+								</xe:basicLeafNode>
+							</xe:this.children></xe:repeatTreeNode>
+							<xe:basicLeafNode label="Reload"
+								submitValue="reloadConfig">
+								<xe:this.loaded><![CDATA[${javascript:@IsMember("[Admin]", context.getUser().getRoles())}]]></xe:this.loaded>
+								<xe:this.title><![CDATA[#{javascript:"Last Loaded: "+configUtil.getDateLoaded()}]]></xe:this.title>
+							</xe:basicLeafNode>
+						</xe:this.children>
+					</xe:basicContainerNode>
+
+				</xe:this.footerLinks>
+			</xe:applicationConfiguration>
+		</xe:this.configuration>
+		<xp:callback id="OneUIMainAreaCallback"></xp:callback>
+		<xp:eventHandler event="onItemClick" submit="true"
+			refreshMode="complete">
+			<xe:this.action><![CDATA[#{javascript:if(context.getSubmittedValue().equals("reloadConfig")) {
+	configUtil.reload();
+	context.reloadPage();
+}}]]></xe:this.action>
+		</xp:eventHandler></xe:applicationLayout>
+	<xp:text escape="false" id="statsHTML"
+		loaded="${configUtil['enableAnalytics'] eq '1'}"
+		value="${configUtil['analyticsCode']}">
+	</xp:text>
+</xp:view>

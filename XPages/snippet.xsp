@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view xmlns:xp="http://www.ibm.com/xsp/core" xmlns:xe="http://www.ibm.com/xsp/coreex"
+	xmlns:xc="http://www.ibm.com/xsp/custom">
+	<xp:this.properties>
+		<xp:parameter name="disableKeyboardSearch" value="1"></xp:parameter>
+	</xp:this.properties>
+	<xp:this.resources>
+		<xp:script src="/Utilities.jss" clientSide="false"></xp:script>
+	</xp:this.resources>
+	<xc:ccTwitterCard loaded="${configUtil['enableTwitterCard'] eq '1'}"></xc:ccTwitterCard>
+	<xp:this.pageTitle><![CDATA[#{javascript:"OpenNTF XSnippet: "+document1.getItemValueString("Name");}]]></xp:this.pageTitle>
+	<xp:this.data>
+		<xp:dominoDocument var="document1" formName="Snippet"
+			action="openDocument">
+			<xp:this.documentId><![CDATA[#{javascript:var p_id = param.id
+var p_unid = param.unid;
+if (p_unid === null) {
+	return getSnippetUNID(p_id, true);
+} else {
+	return p_unid;
+}}]]></xp:this.documentId>
+		</xp:dominoDocument>
+	</xp:this.data>
+
+	<xc:ccOneUILayout>
+		<xp:this.facets>
+			<xp:panel xp:key="LeftColumn" id="panel4">
+				<xc:ccOneUILeft></xc:ccOneUILeft>
+			</xp:panel>
+		</xp:this.facets>
+		<xp:div id="content" styleClass="contentContainer">
+			<xp:panel id="formpanel" styleClass="formSnippet">
+				<xp:text escape="true" id="computedField1"
+					value="#{document1.Name}" tagName="h1" styleClass="snippetHeader">
+				</xp:text>
+				<xe:multiImage id="multiImage1" rendered="#{! empty document1.specialFlags}"
+					value="#{document1.SpecialFlags}" styleClass="specialFlag">
+				<xe:this.icons>
+					<xe:iconEntry selectedValue="featured"
+						url="/flagFeatured16.png" title="Featured Snippet">
+					</xe:iconEntry>
+				</xe:this.icons></xe:multiImage>
+				<xp:div styleClass="favoriteIconContainer">
+					<xc:xiAddToFavorites hideError="false" ccId="fav1"
+						hintValue="#{document1.Name}" iId="#{document1.Id}"
+						img_AddToFavorites="/graystar32.png" img_RemoveFromFavorites="/yellowstar32.png"
+						listContainerId="#{id:myFavorites}">
+					</xc:xiAddToFavorites>
+				</xp:div>
+				<xc:ccCode></xc:ccCode>
+				<xp:panel>
+					<xp:button value="Select XSnippet to copy to Clipboard"
+						id="button4" themeId="">
+						<xp:eventHandler event="onclick"
+							submit="false">
+							<xp:this.script><![CDATA[var code=dojo.query('.syntaxhighlighter .container');
+if(code[0]) selectText(code[0]);
+]]></xp:this.script>
+						</xp:eventHandler>
+					</xp:button>
+					<xp:button value="Edit XSnippet" id="buttonEdit">
+						<xp:this.rendered><![CDATA[#{javascript:document1.getItemValueString("Author")==@Name("[CN]", @UserName())}]]></xp:this.rendered>
+						<xp:eventHandler event="onclick" submit="true"
+							refreshMode="complete">
+							<xp:this.action><![CDATA[#{javascript:context.redirectToPage("editSnippet.xsp?id="+document1.getItemValueString("id"))}]]></xp:this.action>
+						</xp:eventHandler>
+					</xp:button>
+				</xp:panel>
+				<br></br>
+				<br></br>
+				<br></br>
+				<xp:div rendered="#{! empty document1.Notes}" style="margin-left:3px">
+					<xp:label value="Notes" id="label6" for="notes"></xp:label>
+					<xp:br></xp:br>
+					<xp:br></xp:br>
+					<xp:inputTextarea id="notes" value="#{document1.Notes}"></xp:inputTextarea>
+				</xp:div>
+				<xp:div rendered="#{! empty document1.NotesRT}" style="margin-left:3px">
+					<xp:label value="Notes" id="label8" for="notesRT"></xp:label>
+					<xp:br></xp:br>
+					<xp:br></xp:br>
+					<xp:inputRichText id="inputRichText1"
+						value="#{document1.NotesRT}">
+					</xp:inputRichText>
+				</xp:div>
+				<xp:br></xp:br>
+				<xp:div>
+					<xp:table>
+						<xp:tr>
+							<xp:td style="width:90px">
+								<xp:label value="Language" id="label2"
+									for="language">
+								</xp:label>
+							</xp:td>
+							<xp:td>
+								<xp:text escape="true" id="language"
+									value="#{document1.Language}">
+								</xp:text>
+							</xp:td>
+						</xp:tr>
+						<xp:tr>
+							<xp:td>
+								<xp:label value="Author" id="label1"
+									for="author">
+								</xp:label>
+							</xp:td>
+							<xp:td>
+								<xc:ccPersonWithProfiles
+									editProfilePage="editProfile.xsp">
+									<xc:this.personName><![CDATA[#{javascript:document1.getItemValueString("Author")}]]></xc:this.personName>
+								</xc:ccPersonWithProfiles>
+							</xp:td>
+						</xp:tr>
+						<xp:tr>
+							<xp:td>
+								<xp:label value="Submitted on" id="label3"
+									for="submittedOn">
+								</xp:label>
+							</xp:td>
+							<xp:td>
+								<xp:text escape="true" id="submittedOn"
+									value="#{document1.DateCreated}">
+									<xp:this.converter>
+										<xp:convertDateTime type="both"
+											dateStyle="long" timeStyle="short">
+										</xp:convertDateTime>
+									</xp:this.converter>
+								</xp:text>
+							</xp:td>
+						</xp:tr>
+						<xp:tr>
+							<xp:td>
+								<xp:label value="Rating" id="label7"></xp:label>
+							</xp:td>
+							<xp:td>
+								<xp:span style="float:left;">
+									<xc:xiRating hideError="false"
+										ratesDisplayOnly="false" anonymousRating="true" starCount="5"
+										iId="#{document1.Id}" ccId="sr"
+										interactionDB="#{javascript:database.getFilePath()}"
+										ratingTargetDocumentId="#{javascript:document1.getDocument().getUniversalID()}"
+										ratingTargetFieldName="Rating"
+										ratingResultTarget="#{id:ratingInfoContainer}">
+									</xc:xiRating>
+								</xp:span>
+								<xp:span id="ratingInfoContainer"
+									style="float:right;" styleClass="ratingInfo">
+								</xp:span>
+							</xp:td>
+						</xp:tr>
+						<xp:tr>
+							<xp:td>
+								<xp:label value="Downloads" id="label4"
+									for="description">
+								</xp:label>
+							</xp:td>
+							<xp:td>
+								<xp:label id="label5" style="font:normal;"
+									value="#{javascript:getDownloadsById(param.id)}">
+									<xp:this.converter>
+										<xp:convertNumber
+											maxFractionDigits="0">
+										</xp:convertNumber>
+									</xp:this.converter>
+								</xp:label>
+							</xp:td>
+						</xp:tr>
+						<xp:tr>
+							<xp:td>
+								<xp:label value="QAサイト" id="label9"
+									for="qa_ref">
+								</xp:label>
+							</xp:td>
+							<xp:td>
+								<xp:text id="qa_ref" escape="false">
+									<xp:this.value><![CDATA[#{javascript:var ret = "";
+try{
+	var qaPath = configUtil.getValue("qaPath");
+//	qaPath = "qa9.nsf";
+	if(qaPath === "") return ret;
+	var db:NotesDatabase = session.getDatabase("",qaPath);
+	if(db.isOpen() == false) db.open();
+	var vwQaRef:NotesView = db.getView("V_XSnippets_Refs");
+	if(vwQaRef){
+		var key = document1.getItemValueString("Id");
+	    var code = '';
+	    var head = {1: '\\\\u000', 2: '\\\\u00', 3: '\\\\u0', 4: '\\\\u'};
+	    key = key.replace(/[^\x00-\x7F]/g, function(c) {
+	        return head[(code = c.charCodeAt(0).toString(16)).length] + code;
+	    });
+  		var nvec:NotesViewEntryCollection = vwQaRef.getAllEntriesByKey(key, true);
+		var nve:NotesViewEntry = nvec.getFirstEntry();
+		while(nve){
+			ret += "<li>"+nve.getColumnValues().get(1)+"</li>";
+			
+			var temp = nve;
+			nve = nvec.getNextEntry(nve);
+			temp.recycle();
+		}
+		vwQaRef.recycle();
+	}
+	ret = "<ul>"+ret+"</ul>";
+	
+}catch(e){
+	print(e);
+}
+return ret;
+
+}]]></xp:this.value>
+								</xp:text></xp:td>
+						</xp:tr>
+					</xp:table>
+				</xp:div>
+				<xp:br />
+				<xc:ccLicensingDetails></xc:ccLicensingDetails>
+				<xp:br />
+				<xp:br />
+				<xp:panel id="bottomLine" styleClass="snippetButtons">
+					<br></br>
+					<xp:button value="Embed XSnippet" id="button2"
+						rendered="#{javascript:!viewScope.showWidgetGenerator}">
+						<xp:eventHandler event="onclick" submit="true"
+							refreshMode="partial" refreshId="bottomLine">
+							<xp:this.action><![CDATA[#{javascript:viewScope.showWidgetGenerator=true}]]></xp:this.action>
+						</xp:eventHandler>
+					</xp:button>
+					<xc:ccReportForm snippetNoteId="#{javascript:document1.getNoteID()}"
+						loaded="${configUtil['enableReport'] eq '1'}"></xc:ccReportForm>
+					<xp:br />
+					<xc:ccWidgetGenerator snippetId="#{javascript:param.id}"
+						rendered="#{javascript:viewScope.showWidgetGenerator}"></xc:ccWidgetGenerator>
+				</xp:panel>
+			</xp:panel>
+			<xc:ccSocialShare loaded="${configUtil['enableSharing'] eq '1'}"></xc:ccSocialShare>
+			<xc:xiComments readOnly="false" hideError="false"
+				commentDefaultRowCount="10" ccId="comment" customCSS="xinvolve_custom.css"
+				iId="#{document1.Id}" interactionDB="#{javascript:database.getFilePath()}"
+				text_CommentDisabled="Login first to comment...">
+			</xc:xiComments>
+			<xc:ccFacebook loaded="${configUtil['enableFacebookComments'] eq '1'}"></xc:ccFacebook>
+<!-- Twitter search is dead because of the search API changes... -->
+<!--			<xp:div styleClass="twitterSearch" loaded="${configUtil['enableTweetList'] eq '1'}">-->
+<!--				<xc:ccTwitterSearch include_entities="true"-->
+<!--					result_type="mixed" count="10" widgetID="twitter">-->
+<!--					<xc:this.query><![CDATA[#{javascript:return configUtil["twitterStartText"]+param.id.replace('-','%20');}]]></xc:this.query>-->
+<!--				</xc:ccTwitterSearch>-->
+<!--			</xp:div>-->
+		</xp:div>
+	</xc:ccOneUILayout>
+</xp:view>

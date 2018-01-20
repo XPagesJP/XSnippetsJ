@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.0" replicaid="49258147001F0080" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="2c2" sequence="14" unid="0798043473FBEBB7C22579F20048B5D3">
+<created><datetime dst="true">20120502T161411,39+03</datetime></created>
+<modified><datetime>20170911T142702,98+09</datetime></modified>
+<revised><datetime>20170911T142202,80+09</datetime></revised>
+<lastaccessed><datetime>20170911T142702,98+09</datetime></lastaccessed>
+<addedtofile><datetime>20170622T143839,60+09</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Bruce Elgort/O=ideaExchange</name><name>CN=Bruce Elgort/O=Sharepoint</name><name>CN=Serdar Basegmez/O=developi</name><name>CN=Niklas Heidloff/OU=Germany/O=IBM</name><name>CN=Serdar Basegmez/O=developi</name><name>CN=Niklas Heidloff/OU=Germany/O=IBM</name><name>CN=Serdar Basegmez/O=developi</name><name>CN=Takeshi Yoshida/O=solxyz</name><name>CN=XPages Admin/O=XPages</name><name>CN=Kazunori Tatsuki/O=Ktrick</name><name>CN=Takeshi Yoshida/O=solxyz</name><name>CN=Kazunori Tatsuki/O=Ktrick</name></updatedby>
+<wassignedby><name>CN=Kazunori Tatsuki/O=Ktrick</name></wassignedby>
+<item name="$TITLE"><text>xpagesinfo_logo.png</text></item>
+<item name="$FlagsExt"><text>D</text></item>
+<item name="$ImagesWide" sign="true"><number>1</number></item>
+<item name="$ImagesHigh" sign="true"><number>1</number></item>
+<item name="$ImagesColorize" sign="true"><number>0</number></item>
+<item name="$DesignerVersion"><text>8.5.3</text></item>
+
+
+<item name="$FileModDT" sign="true"><datetime dst="true">20120221T150914,00-07</datetime></item>
+<item name="$ImageNames" sign="true"><text>xpagesinfo_logo.png</text></item>
+<item name="$EditFilePath"><text>C:\Users\SBASEG~1\AppData\Local\Temp\notesFFF692\~xpagesinfo_logo2.png</text></item>
+<item name="$Flags"><text>34CiQ</text></item></note>

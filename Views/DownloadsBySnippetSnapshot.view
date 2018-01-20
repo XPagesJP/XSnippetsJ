@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<note class='view' xmlns='http://www.lotus.com/dxl' version='9.0' maintenanceversion='1.0'
+ replicaid='49258147001F0080'>
+<noteinfo noteid='142' unid='5A000C8E303FE30B85257927003B6853' sequence='37'>
+<created><datetime dst='true'>20111012T064853,31-04</datetime></created>
+<modified><datetime>20170911T142659,20+09</datetime></modified>
+<revised><datetime>20170911T141326,61+09</datetime></revised>
+<lastaccessed><datetime>20170911T142659,20+09</datetime></lastaccessed>
+<addedtofile><datetime>20170622T143837,70+09</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Niklas Heidloff/OU=Germany/O=IBM</name><name>CN=René Winkelmeyer/O=rwnotes</name><name
+>CN=Niklas Heidloff/OU=Germany/O=IBM</name><name>CN=NotesOSS2/O=NotesOSS</name><name
+>CN=Niklas Heidloff/OU=Germany/O=IBM</name><name>CN=Serdar Basegmez/O=developi</name><name
+>CN=Niklas Heidloff/OU=Germany/O=IBM</name><name>CN=Serdar Basegmez/O=developi</name><name
+>CN=Takeshi Yoshida/O=solxyz</name><name>CN=XPages Admin/O=XPages</name><name
+>CN=Kazunori Tatsuki/O=Ktrick</name><name>CN=Takeshi Yoshida/O=solxyz</name><name
+>CN=Kazunori Tatsuki/O=Ktrick</name></updatedby>
+<wassignedby><name>CN=Kazunori Tatsuki/O=Ktrick</name></wassignedby>
+<item name='$FormulaClass' sign='true'><text>1</text></item>
+<item name='$TITLE' sign='true'><text>DownloadsBySnippetSnapshot</text></item>
+<item name='$Index' sign='true'><text/></item>
+<item name='$Formula' summary='true' sign='true'><formula compiled='true'>
+qgAFAEgAQwAGAAIACwAPAAoACQAEAElkUHJvamVjdE5hbWVEb3dubG9hZHNOdW1iZXJBdXRob3JM
+aXN0JENvbmZsaWN0JFJFRgAEAAQAAABIAAUABABGb3JtAQAOAExvZ0FnZ3JlZ2F0aW9uCgIEAAUA
+DABET1dOTE9BRFRZUEUBAAcAc25pcHBldAAKAgQAHAIEAAMABwAUAA4ACUwxUzdTOFMxMFMxMVM=
+</formula></item>
+<item name='$Collation' summary='true'>
+<rawitemdata type='2'>
+DwABAABEAGYAAAACAElk
+</rawitemdata></item>
+<item name='$ViewFormat' summary='true' sign='true'>
+<rawitemdata type='5'>
+AQAEAAUACAAAAFZDAQACAAIAAAAAAGoAAQAACgAAAAAAAAAAAAICAAAAVkMAAAsABAAAAAAAUAAB
+AAAKAAAAAAAAAAAAAgIAAABWQwAADwAJAAAAAABQAAEAAAoAAAAACAAAAAACAgAAAFZDAAAKAAYA
+AAAAAFAAAQAACgAAAAAAAAAAAAICAAAASWRJZFByb2plY3ROYW1lTmFtZURvd25sb2Fkc051bWJl
+ckRvd25sb2Fkc0F1dGhvckxpc3RBdXRob3ImAAEAAAABAQAJAQAACgEBDgoAAAEArSsBAAEAAQAA
+AAAAAAAAAFdDAQEACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//AAAAAAAAAAAAAAAAAABXQwEB
+AAkAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAD//wAAAAAAAAAAAAAAAAAAV0MBAQAJAAAAAAAAAAAA
+AAAAAAAAAAAAhAAAAAAA//8AAAAAAAAAAAAAAAAAAFdDAQEACQAAAAAAAAAAAAAAAAAAAAAAAAQA
+AAAAAP//AAAAAAAAAAAAAAAAAABCAAAAAAABAP///wAFAP///wABAAAAAAAAAAAAAAAAAAEA////
+AAEA////AAAAAQAAAAAAAQAAAAAAAQAAAAAAAAAIAAAAAAABAFlDAAAIAAAAAQAAAAEAAAAAAAAA
+AAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAuLCQA
+</rawitemdata></item>
+<item name='$Comment' sign='true'><text/></item>
+<item name='$DesignerVersion' sign='true'><text>8.5.3</text></item>
+<item name='$Flags'><text>Yw</text></item></note>
+

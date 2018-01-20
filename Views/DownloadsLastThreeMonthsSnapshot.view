@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<note class='view' xmlns='http://www.lotus.com/dxl' version='9.0' maintenanceversion='1.0'
+ replicaid='49258147001F0080'>
+<noteinfo noteid='13e' unid='35B51EEFBF9AE7AE85257927002F75D7' sequence='36'>
+<created><datetime dst='true'>20111012T043823,59-04</datetime></created>
+<modified><datetime>20170911T142659,26+09</datetime></modified>
+<revised><datetime>20170911T141330,76+09</datetime></revised>
+<lastaccessed><datetime>20170911T142659,26+09</datetime></lastaccessed>
+<addedtofile><datetime>20170622T143837,68+09</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Niklas Heidloff/OU=Germany/O=IBM</name><name>CN=René Winkelmeyer/O=rwnotes</name><name
+>CN=Niklas Heidloff/OU=Germany/O=IBM</name><name>CN=NotesOSS2/O=NotesOSS</name><name
+>CN=Niklas Heidloff/OU=Germany/O=IBM</name><name>CN=Serdar Basegmez/O=developi</name><name
+>CN=Niklas Heidloff/OU=Germany/O=IBM</name><name>CN=Serdar Basegmez/O=developi</name><name
+>CN=Takeshi Yoshida/O=solxyz</name><name>CN=XPages Admin/O=XPages</name><name
+>CN=Kazunori Tatsuki/O=Ktrick</name><name>CN=Takeshi Yoshida/O=solxyz</name><name
+>CN=Kazunori Tatsuki/O=Ktrick</name></updatedby>
+<wassignedby><name>CN=Kazunori Tatsuki/O=Ktrick</name></wassignedby>
+<item name='$FormulaClass' sign='true'><text>1</text></item>
+<item name='$TITLE' sign='true'><text>DownloadsLastThreeMonthsSnapshot</text></item>
+<item name='$Index' sign='true'><text/></item>
+<item name='$Formula' summary='true' sign='true'><formula compiled='true'>
+TgECACYACQBEb3dubG9hZHMABQAPAERvd25sb2Fkc051bWJlcgADAAIAGgACAElkBQALAFByb2pl
+Y3ROYW1lAAMAAgAcAAQATmFtZQUACwBQcm9qZWN0TmFtZQADAAIAHgAHAEF1dGhvcnMABQAKAEF1
+dGhvckxpc3QDAAUAOAAzAAYACQACAAQABwAJAAQARG93bmxvYWRzSWROYW1lQXV0aG9ycyRDb25m
+bGljdCRSRUYABAAEAAAAdgAFAAQARm9ybQEADgBMb2dBZ2dyZWdhdGlvbgoCBAAFAAwARE9XTkxP
+QURUWVBFAQAHAHNuaXBwZXQACgIEABwCBQAbAERvd25sb2FkZWRJbkxhc3RUaHJlZU1vbnRocwAB
+AAQAdHJ1ZQoCBAAcAgQAAwAHACAAGgAJTDFTN1M4UzEwUzExUzEzUzE0UzE2UzE3Uw==
+</formula></item>
+<item name='$Collation' summary='true'>
+<rawitemdata type='2'>
+FgABAABEgWYAAAAJAERvd25sb2Fkcw==
+</rawitemdata></item>
+<item name='$ViewFormat' summary='true' sign='true'>
+<rawitemdata type='5'>
+AQAEAAQACAAAAFZDBQAJAAkAKAAAAFAAAQAACgAAAAAIAAAAAAICAAAAVkMAAAIAAgAcAAAAdQAB
+AAAKAAAAAAAAAAAAAgIAAABWQwAABAAEAB4AAAB1AAEAAAoAAAAAAAAAAAACAgAAAFZDAAAHAAYA
+IAAAAFAAAQAACgAAAAAAAAAAAAICAAAARG93bmxvYWRzRG93bmxvYWRzKAACACYACQBEb3dubG9h
+ZHMABQAPAERvd25sb2Fkc051bWJlcgADAElkSWQcAAIAGgACAElkBQALAFByb2plY3ROYW1lAAMA
+TmFtZU5hbWUeAAIAHAAEAE5hbWUFAAsAUHJvamVjdE5hbWUAAwBBdXRob3JzQXV0aG9yIAACAB4A
+BwBBdXRob3JzAAUACgBBdXRob3JMaXN0AwAmAAEAAAABAQAJAQAACgEBDgoAAAEArSsBAAEAAQAA
+AAAAAAAAAFdDAQEACQAAAAAAAAAAAAAAAAAAAAAAAIQAAAAAAP//AAAAAAAAAAAAAAAAAABXQwEB
+AAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//wAAAAAAAAAAAAAAAAAAV0MBAQAJAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAA//8AAAAAAAAAAAAAAAAAAFdDAQEACQAAAAAAAAAAAAAAAAAAAAAAAAQA
+AAAAAP//AAAAAAAAAAAAAAAAAABCAAAAAAABAP///wAFAP///wABAAAAAAAAAAAAAAAAAAEA////
+AAEA////AAAAAQAAAAAAAQAAAAAAAQAAAAAAAAAIAAAAAAABAFlDAAAIAAAAAQAAAAEAAAAAAAAA
+AAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAuLCQA
+</rawitemdata></item>
+<item name='$Comment' sign='true'><text/></item>
+<item name='$DesignerVersion' sign='true'><text>8.5.3</text></item>
+<item name='$Flags'><text>Yw</text></item></note>
+

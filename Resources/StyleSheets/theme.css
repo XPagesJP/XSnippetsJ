@@ -1,0 +1,288 @@
+.lotusTitleBar h2.lotusEllipsis {
+	width: 250px;
+}
+
+.lotusui .lotusAccess {
+	width: auto;
+}
+
+.lotusTitleBar {
+	border-bottom: none;
+}
+
+.syntaxhighlighter .toolbar {
+	z-index: 0 !important;
+}
+
+.xspDataTableViewPanelHeaderStart {
+	border-left: medium none;
+	background-color: white;
+	border-bottom: medium none;
+	border-top: medium none;
+}
+
+.xspDataTableViewPanelHeaderMiddle {
+	border-left: medium none;
+	background-color: white;
+	border-bottom: medium none;
+	border-top: medium none;
+}
+
+.xspDataTableViewPanelHeaderEnd {
+	border-right: medium none;
+	background-color: white;
+	border-bottom: medium none;
+	border-top: medium none;
+}
+
+.xspDataTableViewPanelFooterStart {
+	border-left: medium none;
+	background-color: white;
+	border-bottom: medium none;
+	border-top: medium none;
+}
+
+.xspDataTableViewPanelFooterEnd {
+	border-left: medium none;
+	background-color: white;
+	border-bottom: medium none;
+	border-top: medium none;
+}
+
+.xspDataTableViewPanelFooterMiddle {
+	border-right: medium none;
+	background-color: white;
+	border-bottom: medium none;
+	border-top: medium none;
+}
+
+body.tundra {
+	
+}
+
+.logo {
+	margin: 5px 0px 0px 0px;
+}
+
+.lotusContent .contentContainer {
+	position: relative;
+	float: left;
+	width: 100%;
+	/*margin-top:20px;*/
+}
+
+.lotusContent .contentContainer .column {
+	position: relative;
+	float: left;
+	width: 49%;
+}
+
+.lotusContent .contentContainer .column .entryList {
+	position: relative;
+	float: left;
+	margin: 10px 0px 0px 0px;
+}
+
+/*snippet form styling*/
+.snippetHeader {
+	display: inline;
+	min-height: 32px; /* To protect favorite icon */
+}
+
+.favoriteIconContainer {
+	float: right;
+}
+
+.formSnippet img.specialFlag {
+	margin-left: 10px;
+    margin-top: -8px;
+}
+
+/*view styling*/
+.container .contentContainer .viewPanel {
+	position: relative;
+	float: left;
+	width: 100%;
+	margin-top: 10px;
+}
+
+.xspFooterContainer {
+	position: relative;
+	float: left;
+	width: 100%;
+	margin: 5px;
+	text-align: center;
+}
+
+.xspFooterContainer ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
+}
+
+.xspFooterContainer ul li {
+	display: inline;
+}
+
+.xspFooterContainer ul li a,.xspFooterContainer ul li a:hover,.xspFooterContainer ul li a:visited
+	{
+	color: #666;
+	padding: .2em 1em;
+}
+
+.xspDataTableViewPanel {
+	width: 100%;
+}
+
+.xspPanelViewColumnHeader {
+	font-weight: bold;
+}
+
+td.xspColumnViewStart {
+	width: 200px;
+}
+
+td.xspColumnViewStartDate {
+	width: 100px;
+}
+
+td.xspColumnView100 {
+	width: 100px;
+}
+
+td.xspColumnView150 {
+	width: 150px;
+}
+
+td.xspColumnViewStart200 {
+	width: 200px;
+}
+
+td.xspColumnViewMiddle {
+	width: 300px;
+}
+
+.profileLink {
+	
+}
+
+.licensing {
+	color: gray;
+}
+
+/* Form CSS, should be revised...*/
+.lotusForm {
+	background-color: white;
+}
+
+.lotusForm tr.lotusFormFieldRow td,.lotusForm td.lotusFormFieldRow {
+	text-align: left;
+	padding-bottom: 3px;
+}
+
+.lotusForm td.lotusFormLabel {
+	padding-right: 3px;
+}
+
+.lotusFormTable,.lotusFormTable td {
+	background-color: white;
+}
+
+.lotusFormError {
+	padding-top: 10px;
+}
+
+.lotusForm tr.lotusFormFieldRow td .syntaxhighlighter {
+	height: 240px;
+	overflow: scroll;
+}
+
+.lotusForm .xspInputFieldEditBox {
+	margin: 0;
+}
+
+.errorPageContent {
+	
+}
+
+.ratingInfo {
+	font-size: 10px;
+	color: gray;
+	margin-left: 20px;
+	padding-top: 3px;
+}
+
+div.stBubble {
+	height: 10px;
+	width: 10px;
+}
+
+.snippetButtons {
+	margin: 0px 0px 40px 0px;
+}
+
+.socialShare {
+	margin: 20px 0px;
+}
+
+.involveErrorPanel,.commentsMain {
+	margin: 20px 0px;
+}
+
+.faceBookComments {
+	margin: 20px 0px;
+}
+
+/* Edit Profile */
+.lotusFormTable .lotusFormFooter {
+    background-color: white;
+}
+.lotusForm2 .lotusFormFooter, .lotusForm td.lotusFormFooter, .lotusFormTable td.lotusFormFooter {
+    border-color: white;
+    border-style: hidden;
+    border-width: 0 0 0 !important;
+}
+
+.entry {
+    margin-bottom:10px;
+  	width: 95%;
+}
+
+.entry a,.entry a:visited { color:#000; } 
+.entry a:hover, .entry a:active { text-decoration:none; }
+
+.entry .entryLink {
+    display:block;
+    margin-bottom:2px;
+}
+
+.entry .entryLink h3{
+    display:inline-block;
+    font-size:14px
+}
+
+.entry .entryLink .vwImgFeatured {
+    margin-left:10px;
+    vertical-align:top;
+}
+
+.entry .entryBody {
+    line-height:30px;    
+}
+
+.entry .entryBody .entryLanguage { 
+    display:inline-block;
+    padding:2px 4px;
+   	text-align: center;
+	background-color: #649DE1;
+	color: #fff;
+	border: 1px solid #aaa;
+	cursor: pointer;
+	line-height:18px;
+}
+
+.entry .entryBody .entryText {
+    display:inline-block;
+    margin-left:10px;
+}

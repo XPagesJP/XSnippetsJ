@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view xmlns:xp="http://www.ibm.com/xsp/core"
+	xmlns:xc="http://www.ibm.com/xsp/custom"
+	xmlns:xe="http://www.ibm.com/xsp/coreex">
+	<xp:this.properties>
+		<xp:parameter name="disableKeyboardSearch" value="1"></xp:parameter>
+	</xp:this.properties>
+
+	<xc:ccOneUILayout id="cconeuilayout"
+		navigationPath="/EditProfile" 
+		defaultNavigationPath="/EditProfile">
+		<xp:this.facets>
+			<xp:panel xp:key="LeftColumn" id="panel4">
+				<xc:ccOneUILeft id="ccLeftOneUI"></xc:ccOneUILeft>
+			</xp:panel>
+			
+		</xp:this.facets>
+		
+		<xc:ccEditProfile pageAfterSave="Home.xsp"></xc:ccEditProfile>
+	</xc:ccOneUILayout>
+</xp:view>

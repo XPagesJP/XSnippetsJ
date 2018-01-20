@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<note default='true' class='icon' xmlns='http://www.lotus.com/dxl' version='9.0'
+ maintenanceversion='1.0' replicaid='49258147001F0080'>
+<noteinfo noteid='11a' unid='72A6D298B0A8C02386257948004AF974' sequence='26'>
+<created><datetime dst='true'>20111114T083855,24-05</datetime></created>
+<modified><datetime>20170911T142703,16+09</datetime></modified>
+<revised><datetime>20170911T142703,15+09</datetime></revised>
+<lastaccessed><datetime>20170911T142703,16+09</datetime></lastaccessed>
+<addedtofile><datetime>20170622T143837,52+09</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Niklas Heidloff/OU=Germany/O=IBM</name><name>CN=NotesOSS2/O=NotesOSS</name><name
+>CN=Niklas Heidloff/OU=Germany/O=IBM</name><name>CN=Serdar Basegmez/O=developi</name><name
+>CN=Takeshi Yoshida/O=solxyz</name><name>CN=XPages Admin/O=XPages</name><name
+>CN=Kazunori Tatsuki/O=Ktrick</name></updatedby>
+<item name='IconBitmap' summary='true' sign='true'>
+<rawitemdata type='6'>
+AiAgAQAA///////wD///gAH//gAAf/wAAD/4AAAf8AAAD+AAAAfgAAAHwAAAA8AAAAPAAAADgAAA
+AYAAAAGAAAABgAAAAYAAAAGAAAABgAAAAYAAAAHAAAADwAAAA8AAAAPgAAAH4AAAB/AAAA/4AAAf
+/AAAP/4AAH//gAH///AP//////8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAiIiIiAAAAAAAAAAAAAAI
+jPZmZm/IgAAAAAAAAAAIjGZmZmZmZsiAAAAAAAAAjGZmZmZmZmZmyAAAAAAACMZmZmZmZmZmZmyA
+AAAAAIxmZmZmZmZmZmZmyAAAAAjGZmZmZmZmZmZmZmyAAAAIZmbyL2byL2byL2ZmgAAAjGZmIiJm
+IiJmIiJmZsgAAIZmZiIiZiIiZiIiZmZoAADGZmYiImYiImYiImZmbAAI9mZmIiJmIiJmIiJmZm+A
+CGZmZiIiZiIiZiIiZmZmgAhmZmYiImYiImYiImZmZoAIZmZmIiJmIiJmIiJmZmaACGZvIiIiZiIi
+ZiIiIvZmgAhmYiIiImYiImYiIiImZoAIZm8iIi9m8i9m8iIi9maACPZmZmZmZmZmZmZmZmZvgADG
+ZmbyL2byL2byL2ZmbAAAj2ZmIiJmIiJmIiJmZvgAAIxmZiIiZiIiZiIiZmbIAAAI9mbyL2byL2by
+L2ZvgAAACMZmZmZmZmZmZmZmbIAAAACMZmZmZmZmZmZmZsgAAAAACMZmZmZmZmZmZmyAAAAAAACM
+9mZmZmZmZm/IAAAAAAAACIz2ZmZmZm/IgAAAAAAAAAAIiMZmZmyIgAAAAAAAAAAAAACIiIiIAAAA
+AAAAUEECICABAAD/////+A4DgA==
+</rawitemdata></item>
+<item name='$DBTheme' sign='true'><text>layout.theme</text></item>
+<item name='$DefaultXPage' sign='true'><text>home.xsp</text></item>
+<item name='$Flags'><text>J7!M</text></item>
+<item name='$LaunchXPageRunOnServer'><text>0</text></item>
+<item name='$FlagsNoRefresh'><text/></item>
+<item name='$Daos'><text>0</text></item>
+<item name='$TITLE'><text>XSnippets Development</text></item>
+<item name='$PIRCRefreshModTime'><datetime>20170911T142657,80+09</datetime></item>
+<item name='$TemplateModTime'><datetime>20170911T142235,91+09</datetime></item>
+<item name='$TemplateServerName'><text>CN=Kazunori Tatsuki/O=Ktrick</text></item>
+<item name='$TemplateFileName'><text>c:\IBM\Notes\Data\xpagesjp\XSnippetsJ_20170830_1659.ntf</text></item>
+<item name='$DefaultLanguage'><text>ja</text></item>
+<item name='$DefaultCollation'><text>ja</text></item>
+<item name='$CollationType'><text>@UCA</text></item></note>
+

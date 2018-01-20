@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.0" replicaid="49258147001F0080" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="55a" sequence="6" unid="B0BAD7E867976BF749257E68000EF208">
+<created><datetime>20150618T114314,64+09</datetime></created>
+<modified><datetime>20170911T142700,72+09</datetime></modified>
+<revised><datetime>20170911T141518,35+09</datetime></revised>
+<lastaccessed><datetime>20170911T142700,72+09</datetime></lastaccessed>
+<addedtofile><datetime>20170622T143842,92+09</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Takeshi Yoshida/O=solxyz</name><name>CN=XPages Admin/O=XPages</name><name>CN=Kazunori Tatsuki/O=Ktrick</name><name>CN=Takeshi Yoshida/O=solxyz</name><name>CN=Kazunori Tatsuki/O=Ktrick</name></updatedby>
+<wassignedby><name>CN=Kazunori Tatsuki/O=Ktrick</name></wassignedby>
+<item name="$Flags"><text>gC~4K2</text></item>
+<item name="$TITLE"><text>snippetsByLanguage_ja.properties</text></item>
+
+
+<item name="$FileNames" sign="true"><text>snippetsByLanguage_ja.properties</text></item></note>
