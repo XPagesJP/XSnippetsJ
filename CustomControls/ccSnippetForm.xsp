@@ -22,7 +22,7 @@ if(document1.getItemValueString("Name")!=viewScope.get("NameCache")){
 			<xp:this.postSaveDocument><![CDATA[#{javascript:context.redirectToPage("snippet.xsp?id="+document1.getItemValueString("id"))}]]></xp:this.postSaveDocument>
 			<xp:this.queryNewDocument><![CDATA[#{javascript:if(isContributor()) return true; context.redirectToPage("errorCreationNotAllowed");}]]></xp:this.queryNewDocument>
 			<xp:this.postOpenDocument><![CDATA[#{javascript:if(! document1.isNewNote()) {
-	if(document1.getItemValueString("Author")!=@Name("[CN]", @UserName())) 
+	if( document1.getItemValueString("Author")!=@Name("[CN]", @UserName()) && ( !( userBean.accessLevel >= 4 && @Contains( userBean.accessRoles, "[AppContributors]" ) ) ) ) 
 		context.redirectToPage("home.xsp");
 	viewScope.put("NameCache", document1.getItemValueString("Name"));
 }}]]></xp:this.postOpenDocument>

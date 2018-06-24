@@ -1,23 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.0" replicaid="49258147001F0080" version="9.0" xmlns="http://www.lotus.com/dxl">
-<noteinfo noteid="39e" sequence="49" unid="3D0D5A642F90A032C22579F70034D5BB">
-<created><datetime dst="true">20120507T123705,87+03</datetime></created>
-<modified><datetime>20170911T142702,96+09</datetime></modified>
-<revised><datetime>20170911T142205,48+09</datetime></revised>
-<lastaccessed><datetime>20170911T142702,96+09</datetime></lastaccessed>
-<addedtofile><datetime>20170622T143840,70+09</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Serdar Basegmez/O=developi</name><name>CN=Takeshi Yoshida/O=solxyz</name><name>CN=XPages Admin/O=XPages</name><name>CN=Kazunori Tatsuki/O=Ktrick</name><name>CN=Takeshi Yoshida/O=solxyz</name><name>CN=Kazunori Tatsuki/O=Ktrick</name></updatedby>
-<wassignedby><name>CN=Kazunori Tatsuki/O=Ktrick</name></wassignedby>
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.10" replicaid="492582B60041DDB9" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="302" sequence="9" unid="CB0272B7FC4FAC4A492582B60041DFCE">
+<created><datetime>20180624T205931,34+09</datetime></created>
+<modified><datetime>20180624T205948,19+09</datetime></modified>
+<revised><datetime>20180624T205948,18+09</datetime></revised>
+<lastaccessed><datetime>20180624T205948,18+09</datetime></lastaccessed>
+<addedtofile><datetime>20180624T205934,53+09</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Domino Administrator/O=EFLAB</name></updatedby>
+<wassignedby><name>CN=Domino Administrator/O=EFLAB</name></wassignedby>
 <item name="$TITLE"><text>xiRating.xsp</text></item>
 <item name="$Flags"><text>gC~4;</text></item>
-
-
-
+<item name="$Comment" sign="true"><text>version 2.0aBeta (20130501)</text></item>
 
 
 <item name="$FileNames" sign="true"><text>xiRating.xsp</text></item>
-<item name="$Comment" sign="true"><text>version 2.0aBeta (20130501)</text></item>
+
+
+
+
+
 <item name="$DesignerVersion"><text>8.5.1</text></item>
-
-
 
 </note>

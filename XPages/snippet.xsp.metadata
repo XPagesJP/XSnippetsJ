@@ -1,21 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.0" replicaid="49258147001F0080" version="9.0" xmlns="http://www.lotus.com/dxl">
-<noteinfo noteid="316" sequence="349" unid="58CF2A91C4D8C91EC22579F1005B5544">
-<created><datetime dst="true">20120501T193736,04+03</datetime></created>
-<modified><datetime>20170911T142700,42+09</datetime></modified>
-<revised><datetime>20170911T141456,82+09</datetime></revised>
-<lastaccessed><datetime>20170911T142700,42+09</datetime></lastaccessed>
-<addedtofile><datetime>20170622T143840,02+09</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Serdar Basegmez/O=developi</name><name>CN=Niklas Heidloff/OU=Germany/O=IBM</name><name>CN=Serdar Basegmez/O=developi</name><name>CN=Niklas Heidloff/OU=Germany/O=IBM</name><name>CN=Serdar Basegmez/O=developi</name><name>CN=Niklas Heidloff/OU=Germany/O=IBM</name><name>CN=Serdar Basegmez/O=developi</name><name>CN=Takeshi Yoshida/O=solxyz</name><name>CN=XPages Admin/O=XPages</name><name>CN=Kazunori Tatsuki/O=Ktrick</name><name>CN=Takeshi Yoshida/O=solxyz</name><name>CN=Kazunori Tatsuki/O=Ktrick</name></updatedby>
-<wassignedby><name>CN=Kazunori Tatsuki/O=Ktrick</name></wassignedby>
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.10" replicaid="492582B60041DDB9" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="466" sequence="9" unid="2F7D81601C8CBAA8492582B60041E0A7">
+<created><datetime>20180624T205933,51+09</datetime></created>
+<modified><datetime>20180624T210105,88+09</datetime></modified>
+<revised><datetime>20180624T210105,87+09</datetime></revised>
+<lastaccessed><datetime>20180624T210105,87+09</datetime></lastaccessed>
+<addedtofile><datetime>20180624T205939,27+09</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Domino Administrator/O=EFLAB</name></updatedby>
+<wassignedby><name>CN=Domino Administrator/O=EFLAB</name></wassignedby>
 <item name="$Flags"><text>gC~4K</text></item>
 <item name="$TITLE" sign="true"><text>snippet.xsp</text></item>
 
 
 
-
-
-<item name="$FileNames" sign="true"><text>snippet.xsp</text></item>
 <item name="$DesignerVersion"><text>8.5.2</text></item>
 
 
-</note>
+
+
+
+<item name="$FileNames" sign="true"><text>snippet.xsp</text></item></note>

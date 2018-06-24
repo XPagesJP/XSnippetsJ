@@ -1,18 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.0" replicaid="49258147001F0080" version="9.0" xmlns="http://www.lotus.com/dxl">
-<noteinfo noteid="246" sequence="73" unid="B8E8791B21DA61D3C22579F1005B553C">
-<created><datetime dst="true">20120501T193735,96+03</datetime></created>
-<modified><datetime>20170911T142700,68+09</datetime></modified>
-<revised><datetime>20170911T141515,44+09</datetime></revised>
-<lastaccessed><datetime>20170911T142700,68+09</datetime></lastaccessed>
-<addedtofile><datetime>20170622T143838,98+09</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Serdar Basegmez/O=developi</name><name>CN=Niklas Heidloff/OU=Germany/O=IBM</name><name>CN=Serdar Basegmez/O=developi</name><name>CN=Niklas Heidloff/OU=Germany/O=IBM</name><name>CN=Serdar Basegmez/O=developi</name><name>CN=Takeshi Yoshida/O=solxyz</name><name>CN=XPages Admin/O=XPages</name><name>CN=Kazunori Tatsuki/O=Ktrick</name><name>CN=Takeshi Yoshida/O=solxyz</name><name>CN=Kazunori Tatsuki/O=Ktrick</name></updatedby>
-<wassignedby><name>CN=Kazunori Tatsuki/O=Ktrick</name></wassignedby>
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.10" replicaid="492582B60041DDB9" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="496" sequence="8" unid="C3DF62924400973B492582B60041E0C3">
+<created><datetime>20180624T205933,79+09</datetime></created>
+<modified><datetime>20180624T205948,09+09</datetime></modified>
+<revised><datetime>20180624T205948,08+09</datetime></revised>
+<lastaccessed><datetime>20180624T205948,08+09</datetime></lastaccessed>
+<addedtofile><datetime>20180624T205939,99+09</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Domino Administrator/O=EFLAB</name></updatedby>
+<wassignedby><name>CN=Domino Administrator/O=EFLAB</name></wassignedby>
 <item name="$Flags"><text>gC~4K</text></item>
 <item name="$TITLE"><text>snippetsByDate.xsp</text></item>
 
 
-
 <item name="$FileNames" sign="true"><text>snippetsByDate.xsp</text></item>
+
 
 
 <item name="$DesignerVersion"><text>8.5</text></item>

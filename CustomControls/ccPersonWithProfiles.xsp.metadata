@@ -1,22 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.0" replicaid="49258147001F0080" version="9.0" xmlns="http://www.lotus.com/dxl">
-<noteinfo noteid="226" sequence="45" unid="FEEE5D140DE3681EC22579F1005B5620">
-<created><datetime dst="true">20120501T193738,24+03</datetime></created>
-<modified><datetime>20170911T142658,68+09</datetime></modified>
-<revised><datetime>20170911T141249,21+09</datetime></revised>
-<lastaccessed><datetime>20170911T142658,68+09</datetime></lastaccessed>
-<addedtofile><datetime>20170622T143838,82+09</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Serdar Basegmez/O=developi</name><name>CN=Niklas Heidloff/OU=Germany/O=IBM</name><name>CN=Serdar Basegmez/O=developi</name><name>CN=Niklas Heidloff/OU=Germany/O=IBM</name><name>CN=Serdar Basegmez/O=developi</name><name>CN=Takeshi Yoshida/O=solxyz</name><name>CN=XPages Admin/O=XPages</name><name>CN=Kazunori Tatsuki/O=Ktrick</name><name>CN=Takeshi Yoshida/O=solxyz</name><name>CN=Kazunori Tatsuki/O=Ktrick</name></updatedby>
-<wassignedby><name>CN=Kazunori Tatsuki/O=Ktrick</name></wassignedby>
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.10" replicaid="492582B60041DDB9" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="272" sequence="9" unid="C06B59E80F596CD8492582B60041DF7A">
+<created><datetime>20180624T205930,50+09</datetime></created>
+<modified><datetime>20180624T205947,99+09</datetime></modified>
+<revised><datetime>20180624T205947,98+09</datetime></revised>
+<lastaccessed><datetime>20180624T205947,98+09</datetime></lastaccessed>
+<addedtofile><datetime>20180624T205932,13+09</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Domino Administrator/O=EFLAB</name></updatedby>
+<wassignedby><name>CN=Domino Administrator/O=EFLAB</name></wassignedby>
 <item name="$Flags"><text>gC~4;</text></item>
 <item name="$TITLE" sign="true"><text>ccPersonWithProfiles.xsp</text></item>
-
 
 
 <item name="$FileNames" sign="true"><text>ccPersonWithProfiles.xsp</text></item>
 
 
-
-
 <item name="$DesignerVersion"><text>8.5</text></item>
+
+
+
 
 </note>

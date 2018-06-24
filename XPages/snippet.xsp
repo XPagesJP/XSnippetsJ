@@ -59,7 +59,7 @@ if(code[0]) selectText(code[0]);
 						</xp:eventHandler>
 					</xp:button>
 					<xp:button value="Edit XSnippet" id="buttonEdit">
-						<xp:this.rendered><![CDATA[#{javascript:document1.getItemValueString("Author")==@Name("[CN]", @UserName())}]]></xp:this.rendered>
+						<xp:this.rendered><![CDATA[#{javascript:document1.getItemValueString("Author")==@Name("[CN]", @UserName()) || ( userBean.accessLevel >= 4 && @Contains( userBean.accessRoles, "[AppContributors]" ) )}]]></xp:this.rendered>
 						<xp:eventHandler event="onclick" submit="true"
 							refreshMode="complete">
 							<xp:this.action><![CDATA[#{javascript:context.redirectToPage("editSnippet.xsp?id="+document1.getItemValueString("id"))}]]></xp:this.action>

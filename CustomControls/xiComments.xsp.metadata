@@ -1,21 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.0" replicaid="49258147001F0080" version="9.0" xmlns="http://www.lotus.com/dxl">
-<noteinfo noteid="392" sequence="27" unid="AE181E22B9089C65C22579F70034D588">
-<created><datetime dst="true">20120507T123705,36+03</datetime></created>
-<modified><datetime>20170911T142702,68+09</datetime></modified>
-<revised><datetime>20170911T142216,20+09</datetime></revised>
-<lastaccessed><datetime>20170911T142702,68+09</datetime></lastaccessed>
-<addedtofile><datetime>20170622T143840,64+09</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Serdar Basegmez/O=developi</name><name>CN=Niklas Heidloff/OU=Germany/O=IBM</name><name>CN=Serdar Basegmez/O=developi</name><name>CN=Niklas Heidloff/OU=Germany/O=IBM</name><name>CN=Serdar Basegmez/O=developi</name><name>CN=Takeshi Yoshida/O=solxyz</name><name>CN=XPages Admin/O=XPages</name><name>CN=Kazunori Tatsuki/O=Ktrick</name><name>CN=Takeshi Yoshida/O=solxyz</name><name>CN=Kazunori Tatsuki/O=Ktrick</name></updatedby>
-<wassignedby><name>CN=Kazunori Tatsuki/O=Ktrick</name></wassignedby>
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.10" replicaid="492582B60041DDB9" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="2de" sequence="9" unid="629172C85B8C8B21492582B60041DFBA">
+<created><datetime>20180624T205931,14+09</datetime></created>
+<modified><datetime>20180624T205948,17+09</datetime></modified>
+<revised><datetime>20180624T205948,16+09</datetime></revised>
+<lastaccessed><datetime>20180624T205948,16+09</datetime></lastaccessed>
+<addedtofile><datetime>20180624T205933,93+09</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Domino Administrator/O=EFLAB</name></updatedby>
+<wassignedby><name>CN=Domino Administrator/O=EFLAB</name></wassignedby>
 <item name="$Comment"><text>version 2.0Beta (20120505)</text></item>
 <item name="$TITLE"><text>xiComments.xsp</text></item>
 <item name="$Flags"><text>gC~4;</text></item>
 
 
-
-
-
 <item name="$FileNames" sign="true"><text>xiComments.xsp</text></item>
+
+
+
 
 
 <item name="$DesignerVersion"><text>8.5</text></item>
