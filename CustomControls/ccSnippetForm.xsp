@@ -12,7 +12,9 @@ if(document1.isNewNote()) {
 	return true;
 }
 if(document1.getItemValueString("Author")!=@Name("[CN]", @UserName())) {
-	return false;
+	if ( !(userBean.accessLevel >= 4 && @Contains( userBean.accessRoles, "[AppContributors]" )) ) {
+		return false;
+	}
 }
 if(document1.getItemValueString("Name")!=viewScope.get("NameCache")){
 	document1.replaceItemValue("oldID", document1.getItemValueString("ID"));
