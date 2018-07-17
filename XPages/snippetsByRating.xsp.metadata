@@ -1,20 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.10" replicaid="492582B60041DDB9" version="9.0" xmlns="http://www.lotus.com/dxl">
-<noteinfo noteid="4ae" sequence="8" unid="05A2D0C98012AE69492582B60041E0D0">
-<created><datetime>20180624T205933,92+09</datetime></created>
-<modified><datetime>20180624T205948,13+09</datetime></modified>
-<revised><datetime>20180624T205948,12+09</datetime></revised>
-<lastaccessed><datetime>20180624T205948,12+09</datetime></lastaccessed>
-<addedtofile><datetime>20180624T205940,35+09</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Domino Administrator/O=EFLAB</name></updatedby>
-<wassignedby><name>CN=Domino Administrator/O=EFLAB</name></wassignedby>
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.10" replicaid="C2257C39005EB23F" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="242" sequence="47" unid="70B649D6957405F5C22579F1005B5538">
+<created><datetime dst="true">20120501T193735,92+03</datetime></created>
+<modified><datetime>20180717T135251,30+09</datetime></modified>
+<revised><datetime>20180717T135251,28+09</datetime></revised>
+<lastaccessed><datetime>20180717T135251,28+09</datetime></lastaccessed>
+<addedtofile><datetime dst="true">20131206T201421,72+03</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=XPages Admin/O=XPages</name></updatedby>
+<wassignedby><name>CN=XPages Admin/O=XPages</name></wassignedby>
 <item name="$Flags"><text>gC~4K</text></item>
 <item name="$TITLE" sign="true"><text>snippetsByRating.xsp</text></item>
 
 
 <item name="$FileNames" sign="true"><text>snippetsByRating.xsp</text></item>
-
-
-
 <item name="$DesignerVersion"><text>8.5</text></item>
+
+
+
 
 </note>

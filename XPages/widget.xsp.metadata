@@ -1,20 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.0" replicaid="49258147001F0080" version="9.0" xmlns="http://www.lotus.com/dxl">
-<noteinfo noteid="35a" sequence="120" unid="88E3E6BA2567C782C22579F1005B5535">
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.10" replicaid="C2257C39005EB23F" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="35e" sequence="128" unid="88E3E6BA2567C782C22579F1005B5535">
 <created><datetime dst="true">20120501T193735,89+03</datetime></created>
-<modified><datetime>20170911T142702,44+09</datetime></modified>
-<revised><datetime>20170911T141725,06+09</datetime></revised>
-<lastaccessed><datetime>20170911T142702,44+09</datetime></lastaccessed>
-<addedtofile><datetime>20170622T143840,36+09</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Serdar Basegmez/O=developi</name><name>CN=Niklas Heidloff/OU=Germany/O=IBM</name><name>CN=Serdar Basegmez/O=developi</name><name>CN=Niklas Heidloff/OU=Germany/O=IBM</name><name>CN=Serdar Basegmez/O=developi</name><name>CN=Takeshi Yoshida/O=solxyz</name><name>CN=XPages Admin/O=XPages</name><name>CN=Kazunori Tatsuki/O=Ktrick</name><name>CN=Takeshi Yoshida/O=solxyz</name><name>CN=Kazunori Tatsuki/O=Ktrick</name></updatedby>
-<wassignedby><name>CN=Kazunori Tatsuki/O=Ktrick</name></wassignedby>
+<modified><datetime>20180717T135253,67+09</datetime></modified>
+<revised><datetime>20180717T135253,65+09</datetime></revised>
+<lastaccessed><datetime>20180717T135253,65+09</datetime></lastaccessed>
+<addedtofile><datetime dst="true">20131206T201423,14+03</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=XPages Admin/O=XPages</name></updatedby>
+<wassignedby><name>CN=XPages Admin/O=XPages</name></wassignedby>
 <item name="$Flags"><text>gC~4K</text></item>
 <item name="$TITLE" sign="true"><text>widget.xsp</text></item>
 
 
-
 <item name="$FileNames" sign="true"><text>widget.xsp</text></item>
-
-
 <item name="$DesignerVersion"><text>8.5</text></item>
+
+
+
 
 </note>

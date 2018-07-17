@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.0" replicaid="49258147001F0080" version="9.0" xmlns="http://www.lotus.com/dxl">
-<noteinfo noteid="23a" sequence="25" unid="FCC38473D8231AAFC22579F70034D5A4">
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.10" replicaid="C2257C39005EB23F" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="23e" sequence="34" unid="FCC38473D8231AAFC22579F70034D5A4">
 <created><datetime dst="true">20120507T123705,64+03</datetime></created>
-<modified><datetime>20170911T142702,80+09</datetime></modified>
-<revised><datetime>20170911T142232,99+09</datetime></revised>
-<lastaccessed><datetime>20170911T142702,80+09</datetime></lastaccessed>
-<addedtofile><datetime>20170622T143838,92+09</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Serdar Basegmez/O=developi</name><name>CN=Niklas Heidloff/OU=Germany/O=IBM</name><name>CN=Serdar Basegmez/O=developi</name><name>CN=Niklas Heidloff/OU=Germany/O=IBM</name><name>CN=Serdar Basegmez/O=developi</name><name>CN=Takeshi Yoshida/O=solxyz</name><name>CN=XPages Admin/O=XPages</name><name>CN=Kazunori Tatsuki/O=Ktrick</name><name>CN=Takeshi Yoshida/O=solxyz</name><name>CN=Kazunori Tatsuki/O=Ktrick</name></updatedby>
-<wassignedby><name>CN=Kazunori Tatsuki/O=Ktrick</name></wassignedby>
+<modified><datetime>20180717T135254,21+09</datetime></modified>
+<revised><datetime>20180717T135254,19+09</datetime></revised>
+<lastaccessed><datetime>20180717T135254,19+09</datetime></lastaccessed>
+<addedtofile><datetime dst="true">20131206T201421,70+03</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=XPages Admin/O=XPages</name></updatedby>
+<wassignedby><name>CN=XPages Admin/O=XPages</name></wassignedby>
 <item name="$Comment"><text>version 2.0Beta (20120505)</text></item>
 <item name="$TITLE"><text>xiMyFavorites.xsp</text></item>
 <item name="$Flags"><text>gC~4;</text></item>
@@ -15,9 +15,9 @@
 <item name="$FileNames" sign="true"><text>xiMyFavorites.xsp</text></item>
 
 
-
-
-
 <item name="$DesignerVersion"><text>8.5</text></item>
+
+
+
 
 </note>

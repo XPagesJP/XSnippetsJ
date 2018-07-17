@@ -1,16 +1,14 @@
 <?xml version='1.0' encoding='utf-8'?>
-<note class='form' xmlns='http://www.lotus.com/dxl' version='9.0' maintenanceversion='1.0'
- replicaid='49258147001F0080'>
-<noteinfo noteid='1f2' unid='E15425F98BFEDDACC22579F1005B55E3' sequence='16'>
+<note class='form' xmlns='http://www.lotus.com/dxl' version='9.0' maintenanceversion='1.10'
+ replicaid='C2257C39005EB23F'>
+<noteinfo noteid='1f6' unid='E15425F98BFEDDACC22579F1005B55E3' sequence='17'>
 <created><datetime dst='true'>20120501T193737,63+03</datetime></created>
-<modified><datetime>20170911T142700,26+09</datetime></modified>
-<revised><datetime>20170911T141445,13+09</datetime></revised>
-<lastaccessed><datetime>20170911T142700,26+09</datetime></lastaccessed>
-<addedtofile><datetime>20170622T143838,56+09</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Serdar Basegmez/O=developi</name><name>CN=Takeshi Yoshida/O=solxyz</name><name
->CN=XPages Admin/O=XPages</name><name>CN=Kazunori Tatsuki/O=Ktrick</name><name
->CN=Takeshi Yoshida/O=solxyz</name><name>CN=Kazunori Tatsuki/O=Ktrick</name></updatedby>
-<wassignedby><name>CN=Kazunori Tatsuki/O=Ktrick</name></wassignedby>
+<modified><datetime>20180717T135250,40+09</datetime></modified>
+<revised><datetime>20180717T135250,38+09</datetime></revised>
+<lastaccessed><datetime>20180717T135250,38+09</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20131206T201421,34+03</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=XPages Admin/O=XPages</name></updatedby>
+<wassignedby><name>CN=XPages Admin/O=XPages</name></wassignedby>
 <item name='$Comment' sign='true'><text/></item>
 <item name='$HTMLCode' sign='true'>
 <rawitemdata type='1'>

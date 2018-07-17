@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.10" replicaid="492582B60041DDB9" version="9.0" xmlns="http://www.lotus.com/dxl">
-<noteinfo noteid="272" sequence="9" unid="C06B59E80F596CD8492582B60041DF7A">
-<created><datetime>20180624T205930,50+09</datetime></created>
-<modified><datetime>20180624T205947,99+09</datetime></modified>
-<revised><datetime>20180624T205947,98+09</datetime></revised>
-<lastaccessed><datetime>20180624T205947,98+09</datetime></lastaccessed>
-<addedtofile><datetime>20180624T205932,13+09</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Domino Administrator/O=EFLAB</name></updatedby>
-<wassignedby><name>CN=Domino Administrator/O=EFLAB</name></wassignedby>
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.10" replicaid="C2257C39005EB23F" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="22a" sequence="54" unid="FEEE5D140DE3681EC22579F1005B5620">
+<created><datetime dst="true">20120501T193738,24+03</datetime></created>
+<modified><datetime>20180717T135248,00+09</datetime></modified>
+<revised><datetime>20180717T135247,98+09</datetime></revised>
+<lastaccessed><datetime>20180717T135247,98+09</datetime></lastaccessed>
+<addedtofile><datetime dst="true">20131206T201421,60+03</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=XPages Admin/O=XPages</name></updatedby>
+<wassignedby><name>CN=XPages Admin/O=XPages</name></wassignedby>
 <item name="$Flags"><text>gC~4;</text></item>
 <item name="$TITLE" sign="true"><text>ccPersonWithProfiles.xsp</text></item>
 

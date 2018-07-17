@@ -1,16 +1,14 @@
 <?xml version='1.0' encoding='utf-8'?>
-<note class='view' xmlns='http://www.lotus.com/dxl' version='9.0' maintenanceversion='1.0'
- replicaid='49258147001F0080'>
-<noteinfo noteid='3f6' unid='EEE1A79B1BE1B164C2257C18007ACFB5' sequence='10'>
+<note class='view' xmlns='http://www.lotus.com/dxl' version='9.0' maintenanceversion='1.10'
+ replicaid='C2257C39005EB23F'>
+<noteinfo noteid='3fa' unid='EEE1A79B1BE1B164C2257C18007ACFB5' sequence='11'>
 <created><datetime dst='true'>20131104T012125,65+03</datetime></created>
-<modified><datetime>20170911T142700,96+09</datetime></modified>
-<revised><datetime>20170911T141535,59+09</datetime></revised>
-<lastaccessed><datetime>20170911T142700,96+09</datetime></lastaccessed>
-<addedtofile><datetime>20170622T143841,14+09</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Serdar Basegmez/O=developi</name><name>CN=Takeshi Yoshida/O=solxyz</name><name
->CN=XPages Admin/O=XPages</name><name>CN=Kazunori Tatsuki/O=Ktrick</name><name
->CN=Takeshi Yoshida/O=solxyz</name><name>CN=Kazunori Tatsuki/O=Ktrick</name></updatedby>
-<wassignedby><name>CN=Kazunori Tatsuki/O=Ktrick</name></wassignedby>
+<modified><datetime>20180717T135251,45+09</datetime></modified>
+<revised><datetime>20180717T135251,43+09</datetime></revised>
+<lastaccessed><datetime>20180717T135251,43+09</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20131206T201423,92+03</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=XPages Admin/O=XPages</name></updatedby>
+<wassignedby><name>CN=XPages Admin/O=XPages</name></wassignedby>
 <item name='$FormulaClass' sign='true'><text>1</text></item>
 <item name='$TITLE' sign='true'><text>SnippetsFeatured</text></item>
 <item name='$Index' sign='true'><text/></item>

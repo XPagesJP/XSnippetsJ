@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.0" replicaid="49258147001F0080" version="9.0" xmlns="http://www.lotus.com/dxl">
-<noteinfo noteid="352" sequence="18" unid="03D26AA30B73413CC22579F20047DB07">
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.10" replicaid="C2257C39005EB23F" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="356" sequence="21" unid="03D26AA30B73413CC22579F20047DB07">
 <created><datetime dst="true">20120502T160451,27+03</datetime></created>
-<modified><datetime>20170622T144427,30+09</datetime></modified>
-<revised><datetime>20170622T144427,29+09</datetime></revised>
-<lastaccessed><datetime>20170622T144427,30+09</datetime></lastaccessed>
-<addedtofile><datetime>20170622T143840,32+09</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Serdar Basegmez/O=developi</name><name>CN=Niklas Heidloff/OU=Germany/O=IBM</name><name>CN=Serdar Basegmez/O=developi</name><name>CN=Niklas Heidloff/OU=Germany/O=IBM</name><name>CN=Serdar Basegmez/O=developi</name><name>CN=Takeshi Yoshida/O=solxyz</name><name>CN=XPages Admin/O=XPages</name><name>CN=Kazunori Tatsuki/O=Ktrick</name></updatedby>
-<wassignedby><name>CN=Kazunori Tatsuki/O=Ktrick</name></wassignedby>
+<modified><datetime>20180717T135250,01+09</datetime></modified>
+<revised><datetime>20180717T135249,99+09</datetime></revised>
+<lastaccessed><datetime>20180717T135249,99+09</datetime></lastaccessed>
+<addedtofile><datetime dst="true">20131206T201423,10+03</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=XPages Admin/O=XPages</name></updatedby>
+<wassignedby><name>CN=XPages Admin/O=XPages</name></wassignedby>
 <item name="$TITLE"><text>opensearch.xml</text></item>
 <item name="$MimeCharSet"><text>UTF-8</text></item>
 <item name="$Flags"><text>345CgQP</text></item>

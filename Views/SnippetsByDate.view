@@ -1,18 +1,14 @@
 <?xml version='1.0' encoding='utf-8'?>
-<note class='view' xmlns='http://www.lotus.com/dxl' version='9.0' maintenanceversion='1.0'
- replicaid='49258147001F0080'>
-<noteinfo noteid='152' unid='BC6AD0BA3C7204A08525793E0047C60D' sequence='38'>
+<note class='view' xmlns='http://www.lotus.com/dxl' version='9.0' maintenanceversion='1.10'
+ replicaid='C2257C39005EB23F'>
+<noteinfo noteid='156' unid='BC6AD0BA3C7204A08525793E0047C60D' sequence='39'>
 <created><datetime dst='true'>20111104T090357,57-04</datetime></created>
-<modified><datetime>20170911T142700,62+09</datetime></modified>
-<revised><datetime>20170911T141511,15+09</datetime></revised>
-<lastaccessed><datetime>20170911T142700,62+09</datetime></lastaccessed>
-<addedtofile><datetime>20170622T143837,78+09</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Serdar Basegmez/O=developi</name><name>CN=Niklas Heidloff/OU=Germany/O=IBM</name><name
->CN=Serdar Basegmez/O=developi</name><name>CN=Niklas Heidloff/OU=Germany/O=IBM</name><name
->CN=Serdar Basegmez/O=developi</name><name>CN=Takeshi Yoshida/O=solxyz</name><name
->CN=XPages Admin/O=XPages</name><name>CN=Kazunori Tatsuki/O=Ktrick</name><name
->CN=Takeshi Yoshida/O=solxyz</name><name>CN=Kazunori Tatsuki/O=Ktrick</name></updatedby>
-<wassignedby><name>CN=Kazunori Tatsuki/O=Ktrick</name></wassignedby>
+<modified><datetime>20180717T135250,94+09</datetime></modified>
+<revised><datetime>20180717T135250,92+09</datetime></revised>
+<lastaccessed><datetime>20180717T135250,92+09</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20131206T201420,56+03</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=XPages Admin/O=XPages</name></updatedby>
+<wassignedby><name>CN=XPages Admin/O=XPages</name></wassignedby>
 <item name='$FormulaClass' sign='true'><text>1</text></item>
 <item name='$TITLE' sign='true'><text>SnippetsByDate</text></item>
 <item name='$Index' sign='true'><text/></item>

@@ -1,20 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.0" replicaid="49258147001F0080" version="9.0" xmlns="http://www.lotus.com/dxl">
-<noteinfo noteid="27e" sequence="11" unid="6CCD0D37BA00F90FC22579F700392700">
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.10" replicaid="C2257C39005EB23F" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="282" sequence="13" unid="6CCD0D37BA00F90FC22579F700392700">
 <created><datetime dst="true">20120507T132415,36+03</datetime></created>
-<modified><datetime>20170911T142659,76+09</datetime></modified>
-<revised><datetime>20170911T141407,22+09</datetime></revised>
-<lastaccessed><datetime>20170911T142659,76+09</datetime></lastaccessed>
-<addedtofile><datetime>20170622T143839,26+09</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Serdar Basegmez/O=developi</name><name>CN=Niklas Heidloff/OU=Germany/O=IBM</name><name>CN=Serdar Basegmez/O=developi</name><name>CN=Niklas Heidloff/OU=Germany/O=IBM</name><name>CN=Serdar Basegmez/O=developi</name><name>CN=Takeshi Yoshida/O=solxyz</name><name>CN=XPages Admin/O=XPages</name><name>CN=Kazunori Tatsuki/O=Ktrick</name><name>CN=Takeshi Yoshida/O=solxyz</name><name>CN=Kazunori Tatsuki/O=Ktrick</name></updatedby>
-<wassignedby><name>CN=Kazunori Tatsuki/O=Ktrick</name></wassignedby>
+<modified><datetime>20180717T135249,62+09</datetime></modified>
+<revised><datetime>20180717T135249,60+09</datetime></revised>
+<lastaccessed><datetime>20180717T135249,60+09</datetime></lastaccessed>
+<addedtofile><datetime dst="true">20131206T201422,04+03</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=XPages Admin/O=XPages</name></updatedby>
+<wassignedby><name>CN=XPages Admin/O=XPages</name></wassignedby>
 <item name="$TITLE"><text>graystar16.png</text></item>
 <item name="$Flags"><text>34CiQ</text></item>
 <item name="$FlagsExt"><text>D</text></item>
 <item name="$ImagesWide" sign="true"><number>1</number></item>
 <item name="$ImagesHigh" sign="true"><number>1</number></item>
 <item name="$ImagesColorize" sign="true"><number>0</number></item>
-
-
 <item name="$FileModDT" sign="true"><datetime dst="true">20120507T132311,13+03</datetime></item>
 <item name="$ImageNames" sign="true"><text>graystar16.png</text></item>
-<item name="$DesignerVersion"><text>8.5.3</text></item></note>
+<item name="$DesignerVersion"><text>8.5.3</text></item>
+
+</note>

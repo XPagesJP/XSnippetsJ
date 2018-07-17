@@ -1,16 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?><note class="filter" maintenanceversion="1.0" replicaid="49258147001F0080" version="9.0" xmlns="http://www.lotus.com/dxl">
-<noteinfo noteid="19a" sequence="22" unid="BAAEB7E08CCF48C685257953003082C0">
+<?xml version="1.0" encoding="UTF-8"?><note class="filter" maintenanceversion="1.10" replicaid="C2257C39005EB23F" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="19e" sequence="24" unid="BAAEB7E08CCF48C685257953003082C0">
 <created><datetime dst="true">20111125T044952,00-04</datetime></created>
-<modified><datetime>20170911T142702,86+09</datetime></modified>
-<revised><datetime>20170911T142157,44+09</datetime></revised>
-<lastaccessed><datetime>20170911T142702,86+09</datetime></lastaccessed>
-<addedtofile><datetime>20170622T143838,12+09</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Serdar Basegmez/O=developi</name><name>CN=Niklas Heidloff/OU=Germany/O=IBM</name><name>CN=Serdar Basegmez/O=developi</name><name>CN=Niklas Heidloff/OU=Germany/O=IBM</name><name>CN=Serdar Basegmez/O=developi</name><name>CN=Takeshi Yoshida/O=solxyz</name><name>CN=XPages Admin/O=XPages</name><name>CN=Kazunori Tatsuki/O=Ktrick</name><name>CN=Takeshi Yoshida/O=solxyz</name><name>CN=Kazunori Tatsuki/O=Ktrick</name></updatedby>
-<wassignedby><name>CN=Kazunori Tatsuki/O=Ktrick</name></wassignedby>
+<modified><datetime>20180717T135254,30+09</datetime></modified>
+<revised><datetime>20180717T135254,28+09</datetime></revised>
+<lastaccessed><datetime>20180717T135254,28+09</datetime></lastaccessed>
+<addedtofile><datetime dst="true">20131206T201420,90+03</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=XPages Admin/O=XPages</name></updatedby>
+<wassignedby><name>CN=XPages Admin/O=XPages</name></wassignedby>
+<item name="$POID"><datetime>20170911T142157,44+09</datetime></item>
 <item name="$TITLE" sign="true"><text>xInvolveClient</text></item>
 <item name="$Flags"><text>h534Q</text></item>
 <item name="$PublicAccess" sign="true"><text>1</text></item>
+<item name="$DesignerVersion"><text>8.5.3</text></item>
 
-<item name="$Comment" sign="true"><text>version 2.0Beta (20120505)</text></item>
-<item name="$DesignerVersion" sign="true"><text>8.5.3</text></item>
-<item name="$POID"><datetime>20170911T142157,44+09</datetime></item></note>
+<item name="$Comment"><text>version 2.0Beta (20120505)</text></item></note>

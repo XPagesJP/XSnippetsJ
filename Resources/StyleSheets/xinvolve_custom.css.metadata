@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.0" replicaid="49258147001F0080" version="9.0" xmlns="http://www.lotus.com/dxl">
-<noteinfo noteid="1d6" sequence="15" unid="9A7921E566029EB6C22579F1005B55B1">
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.10" replicaid="C2257C39005EB23F" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="1da" sequence="17" unid="9A7921E566029EB6C22579F1005B55B1">
 <created><datetime dst="true">20120501T193737,13+03</datetime></created>
-<modified><datetime>20170911T142702,84+09</datetime></modified>
-<revised><datetime>20170911T142218,84+09</datetime></revised>
-<lastaccessed><datetime>20170911T142702,84+09</datetime></lastaccessed>
-<addedtofile><datetime>20170622T143838,42+09</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Serdar Basegmez/O=developi</name><name>CN=Niklas Heidloff/OU=Germany/O=IBM</name><name>CN=Serdar Basegmez/O=developi</name><name>CN=Niklas Heidloff/OU=Germany/O=IBM</name><name>CN=Serdar Basegmez/O=developi</name><name>CN=Takeshi Yoshida/O=solxyz</name><name>CN=XPages Admin/O=XPages</name><name>CN=Kazunori Tatsuki/O=Ktrick</name><name>CN=Takeshi Yoshida/O=solxyz</name><name>CN=Kazunori Tatsuki/O=Ktrick</name></updatedby>
-<wassignedby><name>CN=Kazunori Tatsuki/O=Ktrick</name></wassignedby>
+<modified><datetime>20180717T135254,27+09</datetime></modified>
+<revised><datetime>20180717T135254,25+09</datetime></revised>
+<lastaccessed><datetime>20180717T135254,25+09</datetime></lastaccessed>
+<addedtofile><datetime dst="true">20131206T201421,20+03</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=XPages Admin/O=XPages</name></updatedby>
+<wassignedby><name>CN=XPages Admin/O=XPages</name></wassignedby>
 <item name="$TITLE"><text>xinvolve_custom.css</text></item>
 <item name="$MimeType"><text>text/css</text></item>
 <item name="$Flags"><text>34C=Q</text></item>

@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.0" replicaid="49258147001F0080" version="9.0" xmlns="http://www.lotus.com/dxl">
-<noteinfo noteid="4ce" sequence="5" unid="E141F432FF602F2549257E68000EF1E5">
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.10" replicaid="C2257C39005EB23F" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="52e" sequence="7" unid="E141F432FF602F2549257E68000EF1E5">
 <created><datetime>20150618T114314,29+09</datetime></created>
-<modified><datetime>20170911T142701,20+09</datetime></modified>
-<revised><datetime>20170911T141552,43+09</datetime></revised>
-<lastaccessed><datetime>20170911T142701,20+09</datetime></lastaccessed>
-<addedtofile><datetime>20170622T143842,22+09</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Takeshi Yoshida/O=solxyz</name><name>CN=XPages Admin/O=XPages</name><name>CN=Kazunori Tatsuki/O=Ktrick</name><name>CN=Takeshi Yoshida/O=solxyz</name><name>CN=Kazunori Tatsuki/O=Ktrick</name></updatedby>
-<wassignedby><name>CN=Kazunori Tatsuki/O=Ktrick</name></wassignedby>
+<modified><datetime>20180717T135251,81+09</datetime></modified>
+<revised><datetime>20180717T135251,79+09</datetime></revised>
+<lastaccessed><datetime>20180717T135251,79+09</datetime></lastaccessed>
+<addedtofile><datetime>20150618T114315,72+09</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=XPages Admin/O=XPages</name></updatedby>
+<wassignedby><name>CN=XPages Admin/O=XPages</name></wassignedby>
 <item name="$Flags"><text>gC~4K2</text></item>
 <item name="$TITLE"><text>suggest.properties</text></item>
 

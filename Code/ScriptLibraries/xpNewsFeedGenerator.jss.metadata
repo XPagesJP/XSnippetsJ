@@ -1,15 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?><note class="filter" maintenanceversion="1.0" replicaid="49258147001F0080" version="9.0" xmlns="http://www.lotus.com/dxl">
-<noteinfo noteid="18e" sequence="26" unid="E60269ABA1A41264852579530044BFBE">
+<?xml version="1.0" encoding="UTF-8"?><note class="filter" maintenanceversion="1.10" replicaid="C2257C39005EB23F" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="192" sequence="28" unid="E60269ABA1A41264852579530044BFBE">
 <created><datetime dst="true">20111125T083055,34-04</datetime></created>
-<modified><datetime>20170911T142703,02+09</datetime></modified>
-<revised><datetime>20170911T142201,41+09</datetime></revised>
-<lastaccessed><datetime>20170911T142703,02+09</datetime></lastaccessed>
-<addedtofile><datetime>20170622T143838,06+09</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Serdar Basegmez/O=developi</name><name>CN=Niklas Heidloff/OU=Germany/O=IBM</name><name>CN=Serdar Basegmez/O=developi</name><name>CN=Niklas Heidloff/OU=Germany/O=IBM</name><name>CN=Serdar Basegmez/O=developi</name><name>CN=Takeshi Yoshida/O=solxyz</name><name>CN=XPages Admin/O=XPages</name><name>CN=Kazunori Tatsuki/O=Ktrick</name><name>CN=Takeshi Yoshida/O=solxyz</name><name>CN=Kazunori Tatsuki/O=Ktrick</name></updatedby>
-<wassignedby><name>CN=Kazunori Tatsuki/O=Ktrick</name></wassignedby>
+<modified><datetime>20180717T135254,54+09</datetime></modified>
+<revised><datetime>20180717T135254,52+09</datetime></revised>
+<lastaccessed><datetime>20180717T135254,52+09</datetime></lastaccessed>
+<addedtofile><datetime dst="true">20131206T201420,84+03</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=XPages Admin/O=XPages</name></updatedby>
+<wassignedby><name>CN=XPages Admin/O=XPages</name></wassignedby>
+<item name="$POID"><datetime>20170911T142201,41+09</datetime></item>
 <item name="$TITLE" sign="true"><text>xpNewsFeedGenerator</text></item>
 <item name="$Flags"><text>.5834Q</text></item>
 <item name="$PublicAccess" sign="true"><text>1</text></item>
 <item name="$DesignerVersion"><text>8.5.3</text></item>
-
-<item name="$POID"><datetime>20170911T142201,41+09</datetime></item></note>
+</note>

@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.10" replicaid="492582B60041DDB9" version="9.0" xmlns="http://www.lotus.com/dxl">
-<noteinfo noteid="1e6" sequence="6" unid="3CB3D5491D695263492582B60041DEEF">
-<created><datetime>20180624T205929,11+09</datetime></created>
-<modified><datetime>20180624T205948,23+09</datetime></modified>
-<revised><datetime>20180624T205948,22+09</datetime></revised>
-<lastaccessed><datetime>20180624T205948,22+09</datetime></lastaccessed>
-<addedtofile><datetime>20180624T205929,81+09</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Domino Administrator/O=EFLAB</name></updatedby>
-<wassignedby><name>CN=Domino Administrator/O=EFLAB</name></wassignedby>
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.10" replicaid="C2257C39005EB23F" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="406" sequence="66" unid="33B998F3617E93CEC2257C1800827592">
+<created><datetime dst="true">20131104T024457,78+03</datetime></created>
+<modified><datetime>20180717T135250,13+09</datetime></modified>
+<revised><datetime>20180717T135250,11+09</datetime></revised>
+<lastaccessed><datetime>20180717T135250,11+09</datetime></lastaccessed>
+<addedtofile><datetime dst="true">20131206T201423,98+03</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=XPages Admin/O=XPages</name></updatedby>
+<wassignedby><name>CN=XPages Admin/O=XPages</name></wassignedby>
 <item name="$Flags"><text>34567Cg~[</text></item>
 <item name="$TITLE"><text>org/openntf/xsnippets/JsonStore.java</text></item>
 <item name="$DesignerVersion"><text>8.5.3</text></item>

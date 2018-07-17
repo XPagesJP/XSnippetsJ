@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.0" replicaid="49258147001F0080" version="9.0" xmlns="http://www.lotus.com/dxl">
-<noteinfo noteid="54e" sequence="5" unid="280835B1369B7BC149257E68000EF205">
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.10" replicaid="C2257C39005EB23F" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="5ae" sequence="7" unid="280835B1369B7BC149257E68000EF205">
 <created><datetime>20150618T114314,61+09</datetime></created>
-<modified><datetime>20170911T142658,96+09</datetime></modified>
-<revised><datetime>20170911T141309,38+09</datetime></revised>
-<lastaccessed><datetime>20170911T142658,96+09</datetime></lastaccessed>
-<addedtofile><datetime>20170622T143842,86+09</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Takeshi Yoshida/O=solxyz</name><name>CN=XPages Admin/O=XPages</name><name>CN=Kazunori Tatsuki/O=Ktrick</name><name>CN=Takeshi Yoshida/O=solxyz</name><name>CN=Kazunori Tatsuki/O=Ktrick</name></updatedby>
-<wassignedby><name>CN=Kazunori Tatsuki/O=Ktrick</name></wassignedby>
+<modified><datetime>20180717T135248,42+09</datetime></modified>
+<revised><datetime>20180717T135248,40+09</datetime></revised>
+<lastaccessed><datetime>20180717T135248,40+09</datetime></lastaccessed>
+<addedtofile><datetime>20150618T114317,00+09</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=XPages Admin/O=XPages</name></updatedby>
+<wassignedby><name>CN=XPages Admin/O=XPages</name></wassignedby>
 <item name="$Flags"><text>gC~4;2</text></item>
 <item name="$TITLE"><text>ccTwitterCard.properties</text></item>
 
